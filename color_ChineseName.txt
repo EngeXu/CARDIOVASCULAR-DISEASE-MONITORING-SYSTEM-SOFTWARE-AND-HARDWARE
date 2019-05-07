@@ -1,0 +1,152 @@
+ <drawable name = "White´¿°×">#FFFFFF</drawable>
+	
+	<drawable name = "Pink·Ûºì">#FFC0CB</drawable>
+	<drawable name = "LightPinkÇ³·ÛÉ«">#FFC0CB</drawable>	
+	<drawable name = "DeepPinkÉî·ÛÉ«">#FF1493</drawable>
+	
+	<drawable name = "Purple×ÏÉ«">#BA55D3</drawable>
+	
+	<drawable name = "Blue´¿À¶">#0000FF</drawable>
+	<drawable name = "LightSkyBlueµ­À¶É«">#87CEFA</drawable>
+	<drawable name = "SkyBlueÌìÀ¶É«">#87CEEB</drawable>
+	<drawable name = "DeepSkyBlueÉîÌìÀ¶">#00BFFF</drawable>
+	<drawable name = "LightBLueµ­À¶">#ADD8E6</drawable>
+	
+	<drawable name = "CyanÇàÉ«">#00FFFF</drawable>
+	<drawable name = "LightCyanµ­ÇàÉ«">#E1FFFF</drawable>
+	
+	<drawable name = "LightGrenµ­ÂÌÉ«">#90EE90</drawable>
+	<drawable name = "Green´¿ÂÌ">#008000</drawable>
+	
+	<drawable name = "LightYellowÇ³»ÆÉ«">#FFFFE0</drawable>	
+	<drawable name = "Yellow´¿»Æ">#FFFF00</drawable>	
+	<drawable name = "Black´¿ºÚ">#000000</drawable>
+
+		
+	<drawable name = "Red´¿ºì">#FF0000</drawable>
+	<drawable name = "OrangeRed³ÈºìÉ«">#FF4500</drawable>	
+	<drawable name = "DarkRedÉîºìÉ«">#8B0000</drawable>	
+	<drawable name = "Brown×ØÉ«">#A52A2A</drawable>
+
+		
+	<drawable name = "Gray»ÒÉ«">#808080</drawable>
+	<drawable name = "LightGreyÇ³»ÒÉ«">#D3D3D3</drawable>
+	<drawable name = "SilverÒø°×É«">#C0C0C0</drawable>
+	<drawable name = "DarkGrayÉî»ÒÉ«">#A9A9A9</drawable>
+	
+	<drawable name = "PeachPuffÌÒÉ«">#FFDAB9</drawable>	
+				
+
+	<drawable name = "CrimsonÐÉºì">#DC143C</drawable>
+	<drawable name = "LavenderBlushÁ³ºìµÄµ­×ÏÉ«">#FFF0F5</drawable> 
+	<drawable name = "PaleVioletRed²Ô°×µÄ×ÏÂÞÀ¼ºìÉ«">#DB7093</drawable>
+	<drawable name = "HotPinkÈÈÇéµÄ·Ûºì">#FF69B4</drawable>
+	<drawable name = "MediumVioletRedÊÊÖÐµÄ×ÏÂÞÀ¼ºìÉ«">#C71585</drawable>
+	<drawable name = "OrchidÀ¼»¨µÄ×ÏÉ«">#DA70D6</drawable>
+	<drawable name = "Thistle¼»">#D8BFD8</drawable>
+	<drawable name = "plumÀî×Ó">#DDA0DD</drawable>
+	<drawable name = "Violet×ÏÂÞÀ¼">#EE82EE</drawable>
+	<drawable name = "FuchsiaµÆÁýº£ÌÄ(×ÏºìÉ«)">#8B008B</drawable>
+	<drawable name = "MediumOrchidÊÊÖÐµÄÀ¼»¨×Ï">#800080</drawable>
+
+	<drawable name = "DarkVoiletÉî×ÏÂÞÀ¼É«">#9400D3</drawable>
+	<drawable name = "DarkOrchidÉîÀ¼»¨×Ï">#9932CC</drawable>
+	<drawable name = "IndigoµåÇà">#4B0082</drawable>
+	<drawable name = "BlueVioletÉî×ÏÂÞÀ¼µÄÀ¶É«">#8A2BE2</drawable>
+	<drawable name = "MediumPurpleÊÊÖÐµÄ×ÏÉ«">#9370DB</drawable>
+	<drawable name = "MediumSlateBlueÊÊÖÐµÄ°åÑÒ°µÀ¶»ÒÉ«">#7B68EE</drawable>
+	<drawable name = "SlateBlue°åÑÒ°µÀ¶»ÒÉ«">#6A5ACD</drawable>
+	<drawable name = "DarkSlateBlueÉîÑÒ°µÀ¶»ÒÉ«">#483D8B</drawable>
+	<drawable name = "LavenderÞ¹ÒÂ²Ý»¨µÄµ­×ÏÉ«">#E6E6FA</drawable>
+	<drawable name = "GhostWhiteÓÄÁéµÄ°×É«">#F8F8FF</drawable>
+
+	<drawable name = "MediumBlueÊÊÖÐµÄÀ¶É«">#0000CD</drawable>
+	<drawable name = "MidnightBlueÎçÒ¹µÄÀ¶É«">#191970</drawable>
+	<drawable name = "DarkBlueÉîÀ¶É«">#00008B</drawable>
+	<drawable name = "Navyº£¾üÀ¶">#000080</drawable>
+	<drawable name = "RoyalBlue»Ê¾üÀ¶">#4169E1</drawable>
+	<drawable name = "CornflowerBlueÊ¸³µ¾ÕµÄÀ¶É«">#6495ED</drawable>
+	<drawable name = "LightSteelBlueµ­¸ÖÀ¶">#B0C4DE</drawable>
+	<drawable name = "LightSlateGrayÇ³Ê¯°å»Ò">#778899</drawable>
+	<drawable name = "SlateGrayÊ¯°å»Ò">#708090</drawable>
+	<drawable name = "DoderBlueµÀÆæÀ¶">#1E90FF</drawable>
+	<drawable name = "AliceBlue°®ÀöË¿À¶">#F0F8FF</drawable>
+	<drawable name = "SteelBlue¸ÖÀ¶">#4682B4</drawable>
+	<drawable name = "PowDerBlue»ðÒ©À¶">#B0E0E6</drawable>
+	<drawable name = "CadetBlue¾üÐ£À¶">#5F9EA0</drawable>
+	<drawable name = "AzureÎµÀ¶É«">#F0FFFF</drawable>
+	<drawable name = "PaleTurquoise²Ô°×µÄÂÌ±¦Ê¯">#AFEEEE</drawable>
+
+	<drawable name = "DarkTurquoiseÉîÂÌ±¦Ê¯">#00CED1</drawable>
+	<drawable name = "DarkSlateGrayÉîÊ¯°å»Ò">#2F4F4F</drawable>
+	<drawable name = "DarkCyanÉîÇàÉ«">#008B8B</drawable>
+	<drawable name = "TealË®Ñ¼É«">#008080</drawable>
+	<drawable name = "MediumTurquoiseÊÊÖÐµÄÂÌ±¦Ê¯">#48D1CC</drawable>
+	<drawable name = "LightSeaGreenÇ³º£ÑóÂÌ">#20B2AA</drawable>
+	<drawable name = "TurquoiseÂÌ±¦Ê¯">#40E0D0</drawable>
+	<drawable name = "AuqamarinÂÌÓñ±ÌÂÌÉ«">#7FFFAA</drawable>
+	<drawable name = "MediumAquamarineÊÊÖÐµÄ±ÌÂÌÉ«">#00FA9A</drawable>
+	<drawable name = "MediumSpringGreenÊÊÖÐµÄ´ºÌìµÄÂÌÉ«">#F5FFFA</drawable>
+	<drawable name = "MintCream±¡ºÉÄÌÓÍ">#00FF7F</drawable>
+	<drawable name = "SpringGreen´ºÌìµÄÂÌÉ«">#3CB371</drawable>
+	<drawable name = "SeaGreenº£ÑóÂÌ">#2E8B57</drawable>
+	<drawable name = "Honeydew·äÃÛ">#F0FFF0</drawable>
+	<drawable name = "PaleGreen²Ô°×µÄÂÌÉ«">#98FB98</drawable>
+	<drawable name = "DarkSeaGreenÉîº£ÑóÂÌ">#8FBC8F</drawable>
+	<drawable name = "LimeGreenËá³ÈÂÌ">#32CD32</drawable>
+	<drawable name = "LimeËá³ÈÉ«">#00FF00</drawable>
+	<drawable name = "ForestGreenÉ­ÁÖÂÌ">#228B22</drawable>
+	<drawable name = "DarkGreenÉîÂÌÉ«">#006400</drawable>
+	<drawable name = "Chartreuse²éÌØ¾ÆÂÌ">#7FFF00</drawable>
+	<drawable name = "LawnGreen²ÝÆºÂÌ">#7CFC00</drawable>
+	<drawable name = "GreenYellowÂÌ»ÆÉ«">#ADFF2F</drawable>
+	<drawable name = "OliveDrabéÏé­ÍÁºÖÉ«">#556B2F</drawable>
+	<drawable name = "BeigeÃ×É«(Ç³ºÖÉ«)">#6B8E23</drawable>
+	<drawable name = "LightGoldenrodYellowÇ³Çï÷è÷ë»Æ">#FAFAD2</drawable>
+	<drawable name = "IvoryÏóÑÀ">#FFFFF0</drawable>
+
+	<drawable name = "OliveéÏé­">#808000</drawable>
+	<drawable name = "DarkKhakiÉî¿¨Æä²¼">#BDB76B</drawable>
+	<drawable name = "LemonChiffonÄûÃÊ±¡É´">#FFFACD</drawable>
+	<drawable name = "PaleGodenrod»ÒÇï÷è÷ë">#EEE8AA</drawable>
+	<drawable name = "Khaki¿¨Æä²¼">#F0E68C</drawable>
+	<drawable name = "Gold½ð">#FFD700</drawable>
+	<drawable name = "CornislkÓñÃ×É«">#FFF8DC</drawable>
+	<drawable name = "GoldEnrodÇï÷è÷ë">#DAA520</drawable>
+	<drawable name = "FloralWhite»¨µÄ°×É«">#FFFAF0</drawable>
+	<drawable name = "OldLaceÀÏÊÎ´ø">#FDF5E6</drawable>
+	<drawable name = "WheatÐ¡ÂóÉ«">#F5DEB3</drawable>
+	<drawable name = "MoccasinÂ¹Æ¤Ð¬">#FFE4B5</drawable>
+	<drawable name = "Orange³ÈÉ«">#FFA500</drawable>
+	<drawable name = "PapayaWhip·¬Ä¾¹Ï">#FFEFD5</drawable>
+	<drawable name = "BlanchedAlmondÆ¯°×µÄÐÓÈÊ">#FFEBCD</drawable>
+	<drawable name = "NavajoWhiteNavajo°×">#FFDEAD</drawable>
+	<drawable name = "AntiqueWhite¹Å´úµÄ°×É«">#FAEBD7</drawable>
+	<drawable name = "TanÉ¹ºÚ">#D2B48C</drawable>
+	<drawable name = "BrulyWood½áÊµµÄÊ÷">#DEB887</drawable>
+	<drawable name = "Bisque(Å¨ÌÀ)ÈéÖ¬,·¬ÇÑµÈ">#FFE4C4</drawable>
+	<drawable name = "DarkOrangeÉî³ÈÉ«">#FF8C00</drawable>
+	<drawable name = "LinenÑÇÂé²¼">#FAF0E6</drawable>
+	<drawable name = "PeruÃØÂ³">#CD853F</drawable>
+
+	<drawable name = "SandyBrownÉ³×ØÉ«">#F4A460</drawable>
+	<drawable name = "ChocolateÇÉ¿ËÁ¦">#D2691E</drawable>
+	<drawable name = "SaddleBrownÂí°°×ØÉ«">#8B4513</drawable>
+	<drawable name = "SeaShellº£±´¿Ç">#FFF5EE</drawable>
+	<drawable name = "Sienna»ÆÍÁô÷É«">#A0522D</drawable>
+	<drawable name = "LightSalmonÇ³ÏÊÈâ(öÙÓã)É«">#FFA07A</drawable>
+	<drawable name = "CoralÉºº÷">#FF7F50</drawable>
+	<drawable name = "DarkSalmonÉîÏÊÈâ(öÙÓã)É«">#E9967A</drawable>
+	<drawable name = "MistyRose±¡ÎíÃµ¹å">#FFE4E1</drawable>
+	<drawable name = "SalmonÏÊÈâ(öÙÓã)É«">#FA8072</drawable>
+	<drawable name = "SnowÑ©">#FFFAFA</drawable>
+	<drawable name = "LightCoralµ­Éºº÷É«">#F08080</drawable>
+	<drawable name = "RosyBrownÃµ¹å×ØÉ«">#BC8F8F</drawable>
+	<drawable name = "IndianRedÓ¡¶Èºì">#CD5C5C</drawable>
+
+	<drawable name = "FireBrickÄÍ»ð×©">#B22222</drawable>
+	<drawable name = "MaroonÀõÉ«">#800000</drawable>
+
+	<drawable name = "WhiteSmoke°×ÑÌ">#F5F5F5</drawable>
+	<drawable name = "Gainsboro">#DCDCDC</drawable>
+	<drawable name = "DimGray°µµ­µÄ»ÒÉ«">#696969</drawable>

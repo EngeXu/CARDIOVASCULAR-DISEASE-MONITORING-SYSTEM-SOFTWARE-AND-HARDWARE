@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/signalsetting"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TableRow>
+    <TextView 
+        android:text="采样频率："
+        android:layout_marginLeft="20dip"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+	<EditText 
+	    android:id="@+id/Fs"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:hint="250"
+	    />
+	<TextView 
+
+        android:text="Hz"
+        android:layout_marginRight="20dip"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+	</TableRow>
+	<TableRow>
+    <TextView 
+
+        android:text="信号通道数："
+        android:layout_marginLeft="20dip"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+	<EditText 
+	    android:id="@+id/channalnumber"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:hint="1"
+	    />
+	<TextView 
+        android:text="路"
+        android:layout_marginRight="20dip"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+	</TableRow>	
+</TableLayout>

@@ -1,0 +1,87 @@
+ <!-- 注释 方法 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:background="@drawable/bk36"
+    android:gravity="left"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+       android:id="@+id/Introduction"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@drawable/bg_alibuybutton"
+       android:padding="5sp"
+       android:layout_margin="5sp"
+       android:text="@string/start"
+       android:textSize="30sp" />
+    <Button
+       android:id="@+id/login"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/Introduction"
+       android:background="@drawable/bg_alibuybutton"
+       android:padding="5sp"
+       android:layout_margin="5sp"
+       android:text="@string/login"
+       android:textSize="30sp" />    
+
+    <Button
+       android:id="@+id/sub_health"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/login"
+       android:background="@drawable/bg_alibuybutton"
+       android:padding="5sp"
+       android:layout_margin="5sp"
+       android:text="@string/sub_health"
+       android:textSize="30sp" /> 
+    <Button
+       android:id="@+id/health_parameter"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/sub_health"
+       android:background="@drawable/bg_alibuybutton"
+       android:padding="5sp"
+       android:layout_margin="5sp"
+       android:text="@string/health_parameter"
+       android:textSize="30sp" />         
+     <Button
+       android:id="@+id/Intensive_care"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/health_parameter"
+       android:background="@drawable/bg_alibuybutton"
+       android:padding="5sp"
+       android:layout_margin="5sp"
+       android:text="@string/intensive_care"
+       android:textSize="30sp" />
+
+     <Button
+       android:id="@+id/Self_help"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/Intensive_care"
+       android:background="@drawable/bg_alibuybutton1"
+       android:padding="15sp"
+       android:layout_margin="5sp"
+       android:text="@string/Alert"
+       android:textSize="30sp" />        
+      <Button
+       android:id="@+id/Quit"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/Self_help"
+       android:background="@drawable/bg_alibuybutton2"
+       android:padding="5sp"
+       android:layout_margin="5sp"
+       android:text="@string/quit"
+       android:textSize="30sp" /> 
+
+</RelativeLayout>

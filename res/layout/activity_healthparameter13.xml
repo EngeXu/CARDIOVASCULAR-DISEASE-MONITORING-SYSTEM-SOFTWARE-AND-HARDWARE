@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+  <LinearLayout
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:background="@drawable/box"
+        	android:orientation="horizontal"
+					>
+    <Button
+            android:id="@+id/BMI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/GreenYellow"
+            android:layout_weight="1"
+            android:layout_margin="5sp"
+            android:text="@string/BMI"
+            android:textSize="30sp" />
+
+    <Button
+            android:id="@+id/BMR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/Red"
+            android:layout_weight="1"
+            android:layout_margin="5sp"            
+            android:text="@string/BMR"
+            android:textSize="30sp" />
+</LinearLayout>  
+<LinearLayout
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:background="@drawable/box"
+        	android:orientation="horizontal"
+					>
+    <Button
+            android:id="@+id/burnBP"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/GreenYellow"
+            android:layout_margin="5sp"
+            android:text="@string/BurnPB"
+            android:textSize="30sp" />
+
+    <Button
+            android:id="@+id/Noise"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/Red"
+            android:layout_weight="1"
+            android:layout_margin="5sp"            
+            android:text="@string/Noise"
+            android:textSize="30sp" />
+</LinearLayout>
+
+<LinearLayout
+   				android:layout_width="fill_parent"
+    			android:layout_height="fill_parent"
+  				android:orientation="vertical"
+  				android:background="@drawable/box"
+  				android:layout_margin="5sp">
+    		<TextView
+        			android:id="@+id/para_result"
+        			android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+        			android:text="@string/Please_chose" 
+        			android:padding="5sp"
+        			android:textSize="20sp" />
+    		<View 	android:layout_height="1px"
+    		        android:layout_width="200sp" 
+    		    	android:background="#000000" >  
+    		</View>  
+    		<TextView
+        			android:id="@+id/para_intro"
+        			android:layout_width="match_parent"
+        			android:layout_height="match_parent"
+        			android:padding="5sp"
+        			android:scrollbars="vertical"
+        			android:singleLine="false"
+        			android:textSize="15sp" />
+
+    </LinearLayout>
+</LinearLayout>

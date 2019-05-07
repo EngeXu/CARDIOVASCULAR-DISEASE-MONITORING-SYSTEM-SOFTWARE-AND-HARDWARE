@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">心血管健康监护与预警系统</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="start"> 使用说明 </string>
+	<string name="start_content">注意:</string>
+	<string name="ok"> 确定 </string>	
+	<string name="first_title">人体健康监护助手</string>
+	<string name="first_content">\t\t\t人体健康监护助手是一款人体状态的实时监护软件，通过人体心电脉博信号实时不间断分析，对人体的状态进行监测；
+	    当人体出现血压升高、心脏病突发等危急状态时, 可采取及时的求助措施。\n <b>该软件具有以下功能：</b>\n
+	    \t\t\t1、实时采集和分析人体的心电脉搏信号。\n
+	    \t\t\t2、采用蓝牙串口实现信号的接收和发送。\n
+	    \t\t\t3、可存储24小时人体的心电脉搏数据。\n
+	 	\t\t\t4、不间断的提取人体心率和脉率信号，有助于发现如心率不齐等慢性心脑血管疾病。\n
+	    \t\t\t5、实时定位，获得监护对象所在的位置。\n
+	    \t\t\t6、对人体状态进行实时的评估。\n
+	    \t\t\t7、当人体出现异常状态时，可发出声光报警，向周围人群求助。\n
+	    \t\t\t8、当人体出现异常状态时，可向家人或附近的医院自动发送求救短信(附有监护对象所处位置的地址及经纬度)，同时拨打求救电话。\n
+	    \n <b>该软件使用方法如下：</b>\n
+	    \t\t\t1、进入主界面，仔细阅读使用说明，按\"确定\"键继续。\n
+	    \t\t\t2、进入信息输入界面，认真输入信息。可设置两个求救电话，建议：电话1为家人，电话2为附近诊所，按\"确定\"键继续。\n
+	    \t\t\t3、进入健康监护界面，点击\"蓝牙开关\"，打开手机的蓝牙设备；点击\"搜索蓝牙设备\"；在可用设备中选择\"HC|06\"；点击\"开始信号采集\"进入信号采集界面；
+	       		出现异常情况时，可点击\"!救助!\"，手动求救。\n
+	    \t\t\t4、进入信号采集与分析界面，点击"采集"，开始同步采集心电脉搏信号;点击\"滤波\"对信号进行预处理；点击\"存储\"，存储信号；
+	    		点击\"分析\"，进行信号分析。\n\n\n\n\n	       		
+	   </string>
+	<string name="quit"> 退出</string>
+	<string name="cancel">取消 </string>
+	<string name="login">信息输入</string>
+	<string name="intensive_care">在线健康监护</string>
+	
+	<string name="health_parameter">常用健康参数</string>
+	<string name="BMI">BMI指数</string>	
+	<string name="BMR">BMR指数</string>
+	<string name="BurnPB">燃脂心率</string>
+	<string name="Noise">环境噪声</string>
+	<string name="Please_chose">亲,单击上面任意按键查看结果。</string>
+						
+	<string name="sub_health">健康状态评估</string>
+	<string name="result_sub_health">亚健康评估结果:</string>
+	<string name="chinesemed">中医体质评判</string>
+	<string name="result_chinesemed">中医体质评判结果:</string>
+	<string name="sub_health_introduce">请客观的回答问题!</string>
+	<string name="Question1">问题一：你精力充沛吗？</string>
+ <!-- 中医体质评价 -->
+	<string-array name="Question_chinesemed">
+	     <!-- 和平型体质1-->
+		<item>问题一：您有精力不充沛吗？</item>
+		<item>问题二：您容易疲乏吗？</item>
+		<item>问题三：您说话的声音柔弱无力吗？</item>
+		<item>问题四：您感觉到闷闷不乐、情绪低沉吗？</item>
+		<item>问题五：您比一般人受不了寒冷（冬天的寒冷和夏天的冷空调、电扇等）吗？</item>
+		<item>问题六：您不能很快适应自然环境和社会环境的变化吗？</item>		
+		<item>问题七：您容易失眠（没有很好的睡眠质量）吗？</item>
+		<item>问题八：您容易忘事(健忘)吗？</item>
+		<item>1</item>
+	     <!-- 气虚型体质2-->		
+		<item>问题九：您容易气短（呼吸短促，接不上气）吗？</item>
+		<item>问题十：您容易疲乏吗？</item>		
+		<item>问题十一：您容易心慌吗？</item>
+		<item>问题十二：您容易头晕或站起来眩晕吗？</item>
+		<item>问题十三：您比一般人容易患感冒吗？</item>
+		<item>问题十四：您喜欢安静，懒得说话吗？</item>
+		<item>问题十五：您的说话声音低弱无力吗？</item>
+		<item>问题十六：您的活动量稍大就容易出虚汗吗？</item>
+		<item>1</item>	
+	     <!-- 阳虚型体质3-->					
+		<item>问题十七：您手脚发凉吗？</item>
+		<item>问题十八：您的胃脘部、背部、腰膝部怕冷吗？</item>
+		<item>问题十九： 您感到怕冷、衣服比别人穿的多吗？</item>
+		<item>问题二十： 您吃喝凉东西感到不舒服或怕吃喝凉东西吗？</item>				
+		<item>问题二十一：您比一般人受不了寒冷（冬天的寒冷和夏天的冷空调、电扇等）吗？</item>
+		<item>问题二十二：您比别人容易患感冒吗？</item>
+		<item>问题二十三：您受凉或者吃喝凉东西后，容易拉肚子（腹泻）吗?？</item>
+		<item>1</item>
+	     <!-- 阴虚型体质4-->			
+		<item>问题二十四：您感到手心脚心发热吗？</item>
+		<item>问题二十五：您感觉身体、脸上发热吗？</item>
+		<item>问题二十六：您的皮肤或者口唇干吗？</item>		
+		<item>问题二十七：您的口唇颜色比一般人红吗？</item>
+		<item>问题二十八：您容易便秘或者大便干燥吗？</item>
+		<item>问题二十九：您面部两颧潮红或者偏红吗？</item>
+		<item>问题三十：您的眼睛感到干涩吗？</item>
+		<item>问题三十一：您感到口干咽燥，总想喝水吗？</item>
+		<item>1</item>
+	     <!-- 痰湿型体质5-->			
+		<item>问题三十二：您感到胸闷或者腹部胀满吗？</item>
+		<item>问题三十三：您感到身体沉重不轻松或不爽快吗？</item>
+		<item>问题三十四：您的腹部肥满松软吗？</item>
+		<item>问题三十五：您有额头部油脂分泌过多的现象吗？</item>
+		<item>问题三十六：您上眼脸比别人肿（或者有轻微隆起现象）吗？</item>		
+		<item>问题三十七：您嘴里有黏黏的感觉吗？</item>
+		<item>问题三十八：您平时痰多，特别是咽喉部总有痰堵的感觉吗？</item>
+		<item>问题三十九：您舌苔厚腻或者有舌苔厚厚的感觉吗？</item>
+		<item>1</item>
+	     <!-- 湿热型体质6-->			
+		<item>问题四十：您面部或者鼻部有油腻感或者油光发亮吗？</item>
+		<item>问题四十一：您易生痤疮、粉刺或者疮疖吗？</item>
+		<item>问题四十二：您感到口苦或者口里有异味吗？</item>
+		<item>问题四十三：您小便时尿道有发热感，尿色浓（深）吗？</item>
+		<item>问题四十四：您带下色黄，白带颜色发黄吗？(限女性同答)\n您的阴囊潮湿多汗吗？(限男性回答)</item>
+		<item>问题四十五：您大便黏滞不爽、有解不尽的感觉吗？</item>
+		<item>1</item>
+	     <!-- 血瘀型体质7-->			
+		<item>问题四十六：您的皮肤在不知不觉中会出现青紫瘀斑（皮下出血）吗？</item>		
+		<item>问题四十七：您两颧部有细微红丝吗？</item>	
+		<item>问题四十八：您身体上有那里疼痛吗？</item>
+		<item>问题四十九：您的面色晦暗或容易出现褐斑吗？</item>
+		<item>问题五十：您容易有黑眼圈吗？</item>
+		<item>问题五十一：您口唇颜色偏暗吗？</item>
+		<item>问题五十二：您容易忘事吗？</item>
+		<item>1</item>
+	     <!-- 气郁型体质8-->			
+		<item>问题五十三：您感觉到闷闷不乐、情绪低沉吗？</item>
+		<item>问题五十四： 您容易精神紧张、焦虑不安吗？</item>
+		<item>问题五十五：您多愁善感、感情脆弱吗？</item>
+		<item>问题五十六：您容易感到害怕或者受到惊吓吗？</item>		
+		<item>问题五十七：您胁肋部或乳房胀痛吗？</item>
+		<item>问题五十八：您无缘无故叹气吗？</item>
+		<item>问题五十九：您咽部有异物感，且吐之不出，咽之不下吗？</item>
+		<item>1</item>
+	     <!-- 特禀型体质9-->			
+		<item>问题六十：您没有感冒时也会打喷嚏吗？</item>
+		<item>问题六十一：您没有感冒也会鼻塞、流鼻涕吗？</item>
+		<item>问题六十二：您有因季节变化，温度变化或异味而咳喘的现象吗？</item>
+		<item>问题六十三：您容易过敏（对药物、食物、气味、花粉）吗？</item>		
+		<item>问题六十四：您的皮肤容易引起荨麻疹（风团、风疹块，风疙瘩）吗？</item>
+		<item>问题六十五：您的皮肤因过敏出现紫癜（紫红色瘀点、瘀斑）吗？</item>		
+		<item>2</item>										
+	</string-array>
+	
+   <string-array name="chinesemed_therapy">
+		<item><b>平和型体质,为正常的体质</b>。<b>调节方式</b>：饮食有节制，不要常吃过冷过热或不干净的食物， 粗细粮食要合理搭配。\n</item>
+		<item><b>气虚型体质的特征</b>：肌肉松软，声音低，易出汁，易累，易感冒。<b>调节方式</b>：多食用具有益气 健脾作用的食物，如黄豆、白扁豆、鸡肉等。少食空心菜、生萝卜等。\n</item>
+		<item><b>阳虚型体质的特征</b>：肌肉不健壮，常常感到手脚发凉，衣服比别人穿得多，夏天不喜欢吹 空调，喜欢安静，性格多沉静、内向。<b>调节方式</b>：平时可多食牛肉、羊肉等温阳之品，少食梨、 西瓜等生冷寒凉食物，少饮绿茶。\n</item>
+		<item><b>阴虚型体质的特征</b>：休形多瘦长，不耐暑热，常感到眼睛干涩，口干咽燥，总想喝水，皮 肤干燥，经常大便干结，容易失眠。<b>调节方式</b>:多食瘦猪肉、鸭肉、绿豆、冬瓜等甘凉滋润之品， 少食羊肉、韭菜、辣椒、葵花子等性温燥烈之品。适合太极拳、太极剑、气功等项目。\n</item>
+		<item><b>痰湿型体质的特征</b>：体形肥胖，腹部肥满而松软。易出汁，且多黏腻。经常感觉脸上有一层油。<b>调节方式</b>:饮食应以清淡为主，可多食冬瓜等。因体形肥胖，易于困倦，故应根据自己的 具体情况循序渐进，长期坚持运动锻炼。\n</item>				
+		<item><b>湿热型体质的特征</b>：面部和鼻尖总是油光发亮，脸上易生粉刺，皮肤易瘙痒。常感到口苦、口臭，脾气较急躁。<b>调节方式</b>：饮食以淸淡为主，可多食赤小豆、绿豆、芹菜、黄瓜、藕等甘寒 的食物。适合中长跑、游泳、爬山、各种球类、武术等。\n</item>
+		<item><b>血瘀型体质的特征</b>：皮肤较粗糙，眼睛里的红丝很多，牙龈易出血。<b>调节方式</b>:多食山楂、醋、 攻瑰花等，少食肥肉等滋膩之品。可参加外种舞蹈、步行健身法、徒手健身操等。\n</item>
+		<item><b>气郁型体质的特征</b>：体形偏瘦，常感到闷闷不乐、情绪低沉，常有胸闷，经常无缘无故地 叹气，易失眠。<b>调节方式</b>:多食黄花菜、海带、山楂、玫瑰花等具有行气、解郁、消食、醒神作用的食物。气郁体质的人不要总待在家里，要多参加群众性的体竹运动项目。\n</item>
+		<item><b>特禀型体质的特征</b>：这是一类体质特殊的人群。其中过敏体质的人易对药物、食物、气味、 花粉、季节过敏。<b>调节方式</b>：多食益气固表的饮物，少食荞麦(贪致敏物质荞麦荧光素)、蚕豆豆等。 居室宜通风良好。保持室内淸洁，被褥、床单.要经常洗晒，可防止对尘螨过敏。\n</item>											
+	</string-array>
+	   <string-array name="sub_therapy">
+		<item><b>社会性亚健康调节方式</b>：亲，混得不容易！好好对待自己，多锻炼身体，多和人交流，你会发现这个世界其实很美好！\n</item>
+		<item><b>躯体型亚健康调节方式</b>：亲，身体是革命的本钱，多锻炼身体，你会更强壮！\n</item>
+		<item><b>心理型亚健康调节方式</b>：亲，调解自己的心理，多换位思考，可以考虑咨询心理医生！\n</item>
+   </string-array>
+   <string-array name="chinesemed_habitus">
+		<item>平和型体质</item>
+		<item>气虚型体质</item>
+		<item>阳虚型体质</item>
+		<item>阴虚型体质</item>
+		<item>痰湿型体质</item>				
+		<item>湿热型体质</item>
+		<item>血瘀型体质</item>
+		<item>气郁型体质</item>
+		<item>特禀型体质</item>											
+	</string-array>		
+	 <!-- 亚健康自测量表-->
+	<string-array name="Question_subhealth">
+	     <!-- 社会型亚健康子量表-->		    
+		<item>问题一：您怎样评价自己近3个月来的生存质量？</item>
+		<item>问题二：您对自己近3个月来的健康状况满意吗？</item>
+		<item>问题三：您的睡眠质量（无论睡多长）如何？</item>
+		<item>问题四：您对自己的工作能力满意吗？</item>
+		<item>问题五：您对自己做日常生活中事情的能力满意吗？</item>
+		<item>问题六：您对自己的人际关系满意吗？</item>		
+		<item>问题七：您对自己从朋友那里得到的支持满意吗？</item>
+		<item>1</item>		
+	     <!-- 躯体型亚健康子量表-->			
+		<item>问题八：您有失眠吗？</item>
+		<item>问题九：您不容易熟睡吗？</item>
+		<item>问题十：您入睡困难吗？</item>
+		<item>问题十一：您有多梦易醒吗？</item>
+		<item>问题十二：您会早醒而影响休息吗？</item>
+		<item>问题十三：您有充沛的精力去应付日常生活吗？</item>
+		<item>问题十四：您容易感到疲劳吗？</item>
+		<item>问题十五：您有全身肌肉酸困，周身疲乏吗？</item>
+		<item>问题十六：您感到身体沉重不轻松或不爽快吗？</item>		
+		<item>问题十七：您容易患感冒吗？</item>
+		<item>问题十八：您的皮肤粗燥吗？</item>
+		<item>问题十九： 您的面色憔悴、无光泽吗？</item>
+		<item>问题二十： 您的皮肤有色素沉着或雀斑吗？</item>				
+		<item>问题二十一： 您易生痤疮、粉刺或者疮疖吗？</item>
+		<item>问题二十二：您有头痛吗？</item>
+		<item>问题二十三：您觉得头重（头很沉）吗?？</item>
+		<item>问题二十四：您有颈肩部不适吗？</item>
+		<item>问题二十五：您有腰背酸痛吗？</item>
+		<item>问题二十六：您有腿膝酸软吗？</item>		
+		<item>问题二十七：您有眼睛疲劳吗？</item>
+		<item>问题二十八：您有眼睛干涩吗？</item>
+		<item>问题二十九：您有眼花(看东西不清楚)吗？</item>
+		<item>问题三十：您有眼睛疼痛吗？</item>
+		<item>问题三十一：您觉得胃部不舒服吗？</item>
+		<item>问题三十二：您有食欲减退吗？</item>
+		<item>问题三十三：您有腹胀吗？</item>
+		<item>问题三十四：您有腹痛吗？</item>
+		<item>问题三十五：您的大便烂（大便不成形）吗？</item>
+		<item>问题三十六：您有便秘（大便每周少于3次，排便困难）吗？</item>		
+		<item>问题三十七：您的大便干吗？</item>
+		<item>问题三十八：您晚上的小便次数多（一晚3次以上）吗？</item>
+		<item>问题三十九：您有尿不尽吗？</item>
+		<item>问题四十：您小便时有疼痛感吗？</item>
+		<item>1</item>	
+	     <!-- 心理型亚健康子量表-->		
+		<item>问题四十一：您感到心烦吗？</item>
+		<item>问题四十二：您感到压抑吗？</item>
+		<item>问题四十三：您感到孤独吗？</item>
+		<item>问题四十四：您有烦恼吗？</item>
+		<item>问题四十五：您有消扱的情绪(如忧郁、悲观、绝望、厌世）吗？</item>
+		<item>问题四十六：您对以往感兴趣的事情,不再兴趣吗？</item>		
+		<item>问题四十七：您看有趣的事物,很难开心地笑吗？</item>
+		<item>问题四十八：您感到不愉快吗？</item>
+		<item>问题四十九：您不能够悠闲轻松地坐着吗？</item>
+		<item>问题五十：您怀着悲观的心情憧憬未来吗？</item>
+		<item>问题五十一：您觉得自己的生活不再那么有意义？</item>
+		<item>问题五十二：您容易精神紧张吗？</item>
+		<item>问题五十三：您觉得注意力涣散，精力难以集中吗？</item>
+		<item>问题五十四： 您觉得记忆力减退（健忘）吗？</item>
+		<item>问题五十五：您觉得自己变得迟钝了吗？</item>
+		<item>问题五十六：您觉得自己能够不承担相应的社会角色吗？</item>		
+		<item>问题五十七：您讨厌聚会和社交活动吗？</item>
+		<item>问题五十八：您觉得自己的工作效率减低吗？</item>			
+		<item>2</item>							
+	</string-array>
+	   <string-array name="subhealth_style">
+		<item>社会型亚健康</item>
+		<item>躯体型亚健康</item>
+		<item>心理型亚健康</item>										
+	</string-array>
+	 <!-- 亚健康自测量表选项-->
+	<string-array name="sub_options1">
+		<item>A：总是</item>
+		<item>B：经常</item>
+		<item>C：偶尔</item>
+		<item>D：较少</item>
+		<item>E：根本没有</item>
+	</string-array>			
+	<string-array name="sub_options0">
+		<item>A：很不满意</item>
+		<item>B：不满意</item>
+		<item>C：一般</item>
+		<item>D：较满意</item>
+		<item>E：很满意</item>									
+	</string-array>	
+	<!-- 中医体质评判选项-->
+	<string-array name="chinesemed_options1">
+		<item>A：没有或根本不</item>
+		<item>B：很少或有一点</item>
+		<item>C：有时或有些</item>
+		<item>D：经常或相当</item>
+		<item>E：总是或非常</item>									
+	</string-array>
+	
+	<string-array name="chinesemed_options0">
+		<item>A：总是或非常</item>
+		<item>B：经常或相当</item>
+		<item>C：有时或有些</item>
+		<item>D：很少或有一点</item>
+		<item>E：没有或根本不</item>									
+	</string-array>
+	
+	<string name="Answer1">A：总是或非常</string>		
+	<string name="Answer2">B：经常或相当</string>		
+	<string name="Answer3">C：有时或有些</string>		
+	<string name="Answer4">D：很少或有一点</string>		
+	<string name="Answer5">E：没有或根本不</string>	
+			
+	<string name="last">上一题</string>		
+	<string name="next">下一题</string>		
+	<string name="sub_result">评估结果及建议:</string>		
+	<string name="sub_result_retry">重做</string>			
+					
+	<string name="all_activity_name">人体健康监护助手</string>
+	<string name="Setting_signal">请输入:</string>	
+	<string name="RandWinf">RandWinf</string>
+	
+	<string name="message_content">我的主人XXX处于危险之中!!!</string>
+	<string name="send_message">发短信 </string>
+	<string name="phonenumber1">+8613669333141</string>
+	<string name="phonenumber2">+8618794215631</string>
+	<string name="Phonenumber">监护人电话:</string>
+	<string name="help">帮助</string>
+	<string name="name">姓名:</string>
+	<string name="exp_name">张三</string>
+	<string name="gender">性别:</string>
+	<string name="exp_gender_girl">女</string>
+	<string name="exp_gender_boy">男</string>
+	<string name="age">年龄:</string>
+	<string name="exp_age">岁</string>
+	<string name="weight">体重:</string>
+	<string name="exp_weight">kg</string>
+	<string name="exp_height">cm</string>
+	<string name="height">身高:</string>
+	<string name="cm">cm</string>
+	<string name="kg">kg</string>
+	<string name="quit_title">下次再见</string>
+	<string name="quit_message">您确定要退出吗？</string>
+	<string name="Health">健康监护</string>
+	<string name="signal_button">信号采集</string>
+	<string name="start1">开始</string>
+	<string name="stop">停止</string>
+	
+	<string name="bluetooth">蓝牙开关:</string>
+	<string name="bluetooth_find">搜索蓝牙设备</string>
+	<string name="bluetooth_button">蓝牙开关</string>
+	<string name="Instrument">可用\n设备:</string>	
+	<string name="SignalSetting">信号采集设置</string>
+	<string name="SignalSetting_Title">请输入参数</string>
+	
+	<string name="PPG">开始信号采集</string>
+	<string name="Return">返回</string>	
+	<string name="store">保存</string>
+	<string name="Alert">！手动自救！</string>
+	<string name="helpcontent">感谢您救我!麻烦帮我拨打求救电话：</string>
+	
+	<string name="time_anlysis">时域法处理结果：</string>
+	<string name="frequency_analysis">庞加莱散点图法处理结果：</string>
+	<string name="nonline_analysis">信息熵法处理结果：</string>
+</resources>

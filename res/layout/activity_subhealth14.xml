@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:id="@+id/theme_subh"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/chinesemed"
+        android:textSize="30sp"
+        android:textStyle="bold" /> 
+    <TextView
+        android:id="@+id/Question"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/theme_subh"
+        android:gravity="left"
+        android:text="@string/Question1"
+        android:textSize="30sp"
+        android:textStyle="bold" /> 
+    <RadioGroup 
+        android:id="@+id/answer"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/Question"
+        android:layout_height="wrap_content">
+        	<RadioButton 
+            	android:id="@+id/A"
+            	android:checked="true"
+            	android:text="@string/Answer1"/>
+       		 <RadioButton 
+            	android:id="@+id/B"
+            	android:text="@string/Answer2"/>
+        	<RadioButton 
+            	android:id="@+id/C"
+            	android:text="@string/Answer3"/>
+       		 <RadioButton 
+            	android:id="@+id/D"
+            	android:text="@string/Answer4"/>
+       		 <RadioButton 
+            	android:id="@+id/E"
+            	android:text="@string/Answer5"/>       		         
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/White"
+         >
+
+        <Button
+            android:id="@+id/last"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/GreenYellow"
+            android:padding="10sp"
+            android:text="@string/last"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="30sp"
+            android:background="@drawable/Red"
+            android:padding="10sp"
+            android:text="@string/next"
+            android:textSize="30sp" />
+    </LinearLayout>  	
+       	
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/LightPink"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".second_activity"
+     >
+    <Button
+            android:id="@+id/sub_health"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/GreenYellow"
+            android:layout_margin="5sp"
+            android:text="@string/sub_health"
+            android:textSize="30sp" />
+
+    <Button
+            android:id="@+id/chinese_med"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sub_health"
+            android:background="@drawable/Red"
+            android:layout_margin="5sp"            
+            android:text="@string/chinesemed"
+            android:textSize="30sp" />
+  <LinearLayout
+        	android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+        	android:background="@drawable/box"
+        	android:orientation="vertical"
+        	android:layout_below="@id/chinese_med">  
+ 	<LinearLayout
+     			android:id="@+id/A1" 
+            	android:layout_weight="1"
+   				android:layout_width="fill_parent"
+    			android:layout_height="fill_parent"
+  				android:orientation="vertical"
+  				android:layout_margin="5sp">
+    		<TextView
+        			android:id="@+id/sub_theme"
+        			android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+        			android:padding="5sp"
+        			android:text="@string/result_sub_health"
+        			android:textSize="20sp" />
+    		<TextView
+        			android:id="@+id/sub_result"
+        			android:layout_width="fill_parent"
+        			android:layout_height="fill_parent"
+        			android:background="@drawable/White"
+        			android:padding="5sp"
+        			android:scrollbars="vertical"
+        			android:singleLine="false"
+        			android:text="@string/result_sub_health"
+        			android:textSize="15sp" />
+
+    </LinearLayout>
+    		<View 	android:layout_height="1px" 
+    		    	android:background="#000000" 
+    		    	android:layout_width="fill_parent">  
+    		</View>    
+	<LinearLayout 
+    			android:id="@+id/A2"
+    			android:layout_weight="1"
+  				android:layout_width="fill_parent"
+    			android:layout_height="fill_parent"
+  				android:orientation="vertical"
+  				android:layout_margin="5sp" >    
+    		<TextView
+        			android:id="@+id/chi_theme"
+        			android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+        			android:padding="5sp"
+        			android:text="@string/result_chinesemed"
+        			android:textSize="20sp" />
+    		<TextView
+        			android:id="@+id/chinesemed_result"
+        			android:layout_width="fill_parent"
+        			android:layout_height="fill_parent"
+        			android:background="@drawable/White"
+        			android:padding="5sp"
+        			android:scrollbars="vertical"
+        			android:singleLine="false"
+        			android:text="@string/result_chinesemed"
+        			android:textSize="15sp" />
+    	</LinearLayout> 
+    </LinearLayout>    
+</RelativeLayout>
